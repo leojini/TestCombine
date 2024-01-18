@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD7637402B43969A0083E0D6 /* MyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD76373F2B43969A0083E0D6 /* MyViewModel.swift */; };
 		ADE98F022B42B2FC0034CE56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE98F012B42B2FC0034CE56 /* AppDelegate.swift */; };
 		ADE98F042B42B2FC0034CE56 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE98F032B42B2FC0034CE56 /* SceneDelegate.swift */; };
 		ADE98F062B42B2FC0034CE56 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE98F052B42B2FC0034CE56 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 		ADE98F192B42B2FD0034CE56 /* TestCombineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE98F182B42B2FD0034CE56 /* TestCombineTests.swift */; };
 		ADE98F232B42B2FD0034CE56 /* TestCombineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE98F222B42B2FD0034CE56 /* TestCombineUITests.swift */; };
 		ADE98F252B42B2FD0034CE56 /* TestCombineUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE98F242B42B2FD0034CE56 /* TestCombineUITestsLaunchTests.swift */; };
+		ADE98F322B42B31B0034CE56 /* IntSubscriber.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE98F312B42B31B0034CE56 /* IntSubscriber.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AD76373F2B43969A0083E0D6 /* MyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewModel.swift; sourceTree = "<group>"; };
 		ADE98EFE2B42B2FC0034CE56 /* TestCombine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestCombine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADE98F012B42B2FC0034CE56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ADE98F032B42B2FC0034CE56 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +52,7 @@
 		ADE98F1E2B42B2FD0034CE56 /* TestCombineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestCombineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADE98F222B42B2FD0034CE56 /* TestCombineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCombineUITests.swift; sourceTree = "<group>"; };
 		ADE98F242B42B2FD0034CE56 /* TestCombineUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCombineUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		ADE98F312B42B31B0034CE56 /* IntSubscriber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntSubscriber.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				ADE98F012B42B2FC0034CE56 /* AppDelegate.swift */,
 				ADE98F032B42B2FC0034CE56 /* SceneDelegate.swift */,
 				ADE98F052B42B2FC0034CE56 /* ViewController.swift */,
+				AD76373F2B43969A0083E0D6 /* MyViewModel.swift */,
+				ADE98F312B42B31B0034CE56 /* IntSubscriber.swift */,
 				ADE98F072B42B2FC0034CE56 /* Main.storyboard */,
 				ADE98F0A2B42B2FD0034CE56 /* Assets.xcassets */,
 				ADE98F0C2B42B2FD0034CE56 /* LaunchScreen.storyboard */,
@@ -258,7 +264,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD7637402B43969A0083E0D6 /* MyViewModel.swift in Sources */,
 				ADE98F062B42B2FC0034CE56 /* ViewController.swift in Sources */,
+				ADE98F322B42B31B0034CE56 /* IntSubscriber.swift in Sources */,
 				ADE98F022B42B2FC0034CE56 /* AppDelegate.swift in Sources */,
 				ADE98F042B42B2FC0034CE56 /* SceneDelegate.swift in Sources */,
 			);
